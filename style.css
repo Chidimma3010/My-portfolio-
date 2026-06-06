@@ -2,14 +2,14 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background: #0a0a0a;
-  color: #e0e0e0;
+  background: #0F172A;
+  color: #F8FAFC;
   line-height: 1.7;
 }
 
 header {
-  background: linear-gradient(135deg, #0077ff, #00c6ff);
-  color: white;
+  background: linear-gradient(135deg, #1E40AF, #2563EB);
+  color: #F8FAFC;
   padding: 60px 20px;
   text-align: center;
 }
@@ -20,29 +20,20 @@ header h1 {
   margin-bottom: 10px;
 }
 
-.title {
-  font-size: 1em;
-  opacity: 0.9;
-  margin-bottom: 8px;
-}
-
-.location {
-  font-size: 0.9em;
-  opacity: 0.8;
-  margin-bottom: 20px;
-}
+.title { font-size: 1em; opacity: 0.9; margin-bottom: 8px; }
+.location { font-size: 0.9em; opacity: 0.8; margin-bottom: 20px; }
 
 .links {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 12px;
   flex-wrap: wrap;
 }
 
 .links a {
-  background: white;
-  color: #0077ff;
-  padding: 8px 20px;
+  background: #F8FAFC;
+  color: #2563EB;
+  padding: 8px 22px;
   border-radius: 25px;
   text-decoration: none;
   font-weight: bold;
@@ -50,7 +41,7 @@ header h1 {
   transition: all 0.3s;
 }
 
-.links a:hover { background: #0077ff; color: white; }
+.links a:hover { background: #2563EB; color: #F8FAFC; }
 
 section {
   max-width: 800px;
@@ -59,14 +50,16 @@ section {
 }
 
 h2 {
-  font-size: 1.4em;
-  color: #00c6ff;
-  border-left: 4px solid #0077ff;
+  font-size: 1.2em;
+  color: #2563EB;
+  border-left: 4px solid #2563EB;
   padding-left: 12px;
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+p { color: #CBD5E1; font-size: 0.95em; }
 
 .skills {
   display: flex;
@@ -75,17 +68,17 @@ h2 {
 }
 
 .skills span {
-  background: #1a1a2e;
-  color: #00c6ff;
-  border: 1px solid #0077ff;
+  background: #1E293B;
+  color: #93C5FD;
+  border: 1px solid #2563EB;
   padding: 8px 18px;
   border-radius: 25px;
   font-size: 0.9em;
 }
 
 .project {
-  background: #111827;
-  border: 1px solid #1e3a5f;
+  background: #1E293B;
+  border: 1px solid #2563EB;
   border-radius: 12px;
   padding: 25px;
   margin-bottom: 20px;
@@ -94,30 +87,17 @@ h2 {
 
 .project:hover { transform: translateY(-4px); }
 
-.project h3 {
-  color: #ffffff;
-  font-size: 1.1em;
-  margin-bottom: 8px;
-}
+.project h3 { color: #F8FAFC; margin-bottom: 8px; }
 
-.project p {
-  color: #9ca3af;
-  margin-bottom: 12px;
-  font-size: 0.95em;
-}
+.project p { color: #94A3B8; margin-bottom: 12px; }
 
-.project a {
-  color: #00c6ff;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 0.9em;
-}
+.project a { color: #93C5FD; text-decoration: none; font-weight: bold; }
 
 .resume-btn {
   display: inline-block;
   margin-top: 15px;
-  background: linear-gradient(135deg, #0077ff, #00c6ff);
-  color: white;
+  background: #2563EB;
+  color: #F8FAFC;
   padding: 12px 30px;
   border-radius: 25px;
   text-decoration: none;
@@ -127,21 +107,13 @@ h2 {
 
 .resume-btn:hover { opacity: 0.85; }
 
-#contact p {
-  margin-bottom: 10px;
-  font-size: 0.95em;
-}
-
-section a {
-  color: #00c6ff;
-  text-decoration: none;
-}
+section a { color: #93C5FD; text-decoration: none; }
 
 footer {
   text-align: center;
   padding: 30px;
-  color: #4b5563;
+  color: #475569;
   font-size: 0.85em;
-  border-top: 1px solid #1e3a5f;
+  border-top: 1px solid #1E293B;
   margin-top: 60px;
 }
